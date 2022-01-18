@@ -13,7 +13,7 @@ const Header = () =>  (
     {/* Header: icon and name. */}
     <Div1>
       <Link href="/">
-        <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: '20px'}}>
+        <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: '30px'}}>
           <AiOutlineCode size="3rem"/> <Span>[Mai] Portfolio</Span>
         </a>
       </Link>
