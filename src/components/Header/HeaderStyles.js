@@ -34,8 +34,6 @@ export const Div1 = styled.div`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  // // Aligns the navbar to the header.
-  // padding-top: 0.75rem;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
@@ -55,12 +53,13 @@ export const Div3 = styled.div`
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
-  line-height: 32px;
+  line-height: 35px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
     color: #fff;
     opacity: 1;
+    font-size: 2.1rem;
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -118,10 +117,10 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 // Social Icons 
 
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
+transition: 0.8s ease;
 color: white;
 border-radius: 5px;
-margin-bottom: 25px;
+margin-bottom: 12px;
 &:hover {
     transform: scale(1.2);
     cursor: pointer;

@@ -2,8 +2,8 @@
 import Link from 'next/link';
 import React from 'react';
 // Allow us to use icon presets.
-import { FaGithubSquare, FaLinkedin, FaInstagramSquare } from 'react-icons/fa';
-import { AiOutlineCode } from 'react-icons/ai';
+import { AiOutlineCode, AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+import { MdMail } from 'react-icons/md';
 // Premade header styles.
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -13,8 +13,8 @@ const Header = () =>  (
     {/* Header: icon and name. */}
     <Div1>
       <Link href="/">
-        <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: '30px'}}>
-          <AiOutlineCode size="3rem"/> <Span>[Mai] Portfolio</Span>
+        <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: '20px'}}>
+          <AiOutlineCode size="3.5rem" style={{marginRight: '5px'}}/> <Span>[Mai] Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -41,13 +41,13 @@ const Header = () =>  (
     {/* Social links via React icons. */}
     <Div3>
       <SocialIcons href="https://github.com/anjerraa">
-        <FaGithubSquare size="3rem"/>
+        <AiFillGithub size="3rem"/>
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/mai-ngoc-pham/">
-        <FaLinkedin size="3rem"/>
+        <AiFillLinkedin size="3rem"/>
       </SocialIcons>
-      <SocialIcons href="https://instagram.com/anjerraa">
-        <FaInstagramSquare size="3rem"/>
+      <SocialIcons href="mailto:angellapham240@gmail.com">
+        <MdMail size="3.3rem"/>
       </SocialIcons>
     </Div3>
 
