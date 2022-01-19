@@ -15,7 +15,7 @@ const Hero = (props) => (
         Hi there! I am a second year Software Engineering student at the 
         University of New South Wales (Sydney, Australia). I have experience 
         with Python, C and MIPS Assembly. I am currently learning Javascript 
-        through a variety of personal projects, such as making a todo list, 
+        through a variety of personal projects, such as making a todo list, a
         Discord bot and this portfolio website!
       </SectionText>
       <Button onClick={() => window.location = "#projects"}>Learn More</Button>
